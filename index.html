@@ -83,43 +83,7 @@
         <div class="swiper-button-prev"></div>
         <div class="swiper-pagination"></div>
     </div>
-
-    <!-- Swiper JS -->
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
-    <!-- Initialize Swiper -->
-    <script>
-        var swiper = new Swiper(".mySwiper", {
-            slidesPerView: 'auto',
-            spaceBetween: 30,
-            centeredSlides: true,
-            grabCursor: true,
-            loop: true,
-            // breakpoints: {
-            //   345: {
-            //     slidesPerView: 1,
-            //     spaceBetween: 20,
-            //   },
-            //   480: {
-            //     slidesPerView: 2,
-            //     spaceBetween: 30,
-            //   },
-            //   640: {
-            //     slidesPerView: 3,
-            //     spaceBetween: 60,
-            //   }
-            // },
-            speed: 900,
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-            },
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
-        });
-    </script>
+    <script type="module" src="app.js"></script>
 </body>
 
 </html>
